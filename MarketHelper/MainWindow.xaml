@@ -31,14 +31,14 @@
         </Button>
         <Button Foreground="White"  FontSize="25" 
             BorderBrush="White" Background="RosyBrown" FontWeight="Bold"
-            Padding="22" RenderTransformOrigin="0.5,0.5" Grid.Column="1" Grid.Row="3">
+            Padding="22" RenderTransformOrigin="0.5,0.5" Grid.Column="1" Grid.Row="3" Click="Button_Click_1">
 
             Управління
 
         </Button>
         <Button Foreground="White"  FontSize="25" 
             BorderBrush="White" Background="RosyBrown" FontWeight="Bold"
-            Padding="22" RenderTransformOrigin="0.5,0.5" Grid.Column="1" Grid.Row="4" Margin="0,33,2,25" Grid.RowSpan="2">
+            Padding="22" RenderTransformOrigin="0.5,0.5" Grid.Column="1" Grid.Row="4" Margin="0,33,2,25" Grid.RowSpan="2" Click="Button_Click">
             Вихід
 
 

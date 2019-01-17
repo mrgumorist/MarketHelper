@@ -20,9 +20,23 @@ namespace MarketHelper
     /// </summary>
     public partial class MainWindow : Window
     {
+        StoreDataSet store = new StoreDataSet();
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            
+            //store.Admins[0].Login;
+            MessageBox.Show("Дякую за використання моєї програми.");
+            Close();
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }
