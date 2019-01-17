@@ -10,36 +10,33 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace MarketHelper
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for AdminLogin.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class AdminLogin : Window
     {
         StoreDataSet store = new StoreDataSet();
-        public MainWindow()
+        public AdminLogin()
         {
             InitializeComponent();
+
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            
-            //store.Admins[0].Login;
-            MessageBox.Show("Дякую за використання моєї програми.");
             Close();
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-            AdminLogin admin = new AdminLogin();
-            Hide();
-            admin.ShowDialog();
-            Show();
+            //if(Log.Text==store.Admins[1].Login&& Pas.Password == store.Admins[0].Password)
+            //{
+            //    MessageBox.Show("Успішний вхід");
+            //}
         }
     }
 }
